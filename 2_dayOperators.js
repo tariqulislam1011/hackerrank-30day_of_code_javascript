@@ -36,5 +36,5 @@ function main() {
 
     const tax_percent = parseInt(readLine(), 10);
 
-    solve(meal_cost, tip_percent, tax_percent);
+   return solve(meal_cost, tip_percent, tax_percent);
 }
